@@ -1,0 +1,29 @@
+{
+    "version": "2.0",
+    "site_url": "https://akashmali.info/candela/",
+    "url_format": "/{slug}/",
+    "pages": [
+        {
+            "slug": "home",
+            "title": "Home",
+            "type": "static",
+            "status": "publish",
+            "file": "pages/static/home.html",
+            "is_front_page": true,
+            "updated_at": "2026-08-01T14:38:05+00:00",
+            "instructions": "Starter welcome overview — link to Setup Guide; replace after AI designs real site",
+            "public_url": "https://akashmali.info/candela/"
+        },
+        {
+            "slug": "promptweb-setup-guide",
+            "title": "PromptWeb Setup Guide",
+            "type": "static",
+            "status": "publish",
+            "file": "pages/static/promptweb-setup-guide.html",
+            "is_front_page": false,
+            "updated_at": "2026-08-01T14:38:05+00:00",
+            "instructions": "Detailed beginner setup guide with copy-paste prompts and repo name placeholders",
+            "public_url": "https://akashmali.info/candela/promptweb-setup-guide/"
+        }
+    ]
+}
