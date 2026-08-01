@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The candela Studio — Welcome</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+					colors: {
+						sky: { 400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7' },
+						mint: { 400: '#2dd4bf', 500: '#14b8a6' }
+					}
+				}
+			}
+		};
+	</script>
+	<style>
+		body { font-family: Inter, system-ui, sans-serif; }
+	</style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+	<!-- PromptWeb starter home only · temporary until AI publishes real design -->
+	<header class="relative z-20 border-b border-slate-200/70 bg-white/80 backdrop-blur">
+		<div class="mx-auto flex max-w-5xl items-center justify-between px-5 py-4 sm:px-6">
+			<a href="/" class="flex items-center gap-2.5">
+				<span class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-mint-500 text-white shadow-md shadow-sky-500/20" aria-hidden="true">
+					<svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+				</span>
+				<span class="text-base font-bold tracking-tight text-slate-900">The candela Studio</span>
+			</a>
+			<span class="rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-800 ring-1 ring-amber-200">Starter page</span>
+		</div>
+	</header>
+
+	<main>
+		<section class="relative overflow-hidden">
+			<div class="pointer-events-none absolute inset-0" aria-hidden="true">
+				<div class="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-sky-400/25 blur-3xl"></div>
+				<div class="absolute -right-16 top-32 h-80 w-80 rounded-full bg-mint-400/20 blur-3xl"></div>
+				<div class="absolute bottom-0 left-1/3 h-56 w-56 rounded-full bg-indigo-300/15 blur-3xl"></div>
+			</div>
+
+			<div class="relative mx-auto max-w-5xl px-5 pb-10 pt-14 sm:px-6 sm:pb-14 sm:pt-20">
+				<div class="mx-auto max-w-3xl text-center">
+					<p class="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-sky-700 shadow-sm ring-1 ring-slate-200/80">
+						<span class="h-1.5 w-1.5 rounded-full bg-sky-500"></span>
+						PromptWeb · Welcome
+					</p>
+					<h1 class="mt-6 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl sm:leading-tight lg:text-6xl">
+						Welcome to the Future of AI
+					</h1>
+					<p class="mt-5 text-lg font-medium text-slate-600 sm:text-xl">
+						Start creating beautiful websites with our AI
+					</p>
+					<p class="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-slate-500">
+						This is a temporary starter page until setup is done and AI publishes your real design.
+					</p>
+					<div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+						<a href="/promptweb-setup-guide/" class="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-6 py-3.5 text-base font-semibold text-white shadow-lg shadow-slate-900/15 transition hover:bg-slate-800">
+							Open full Setup Guide
+							<svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+						</a>
+						<span class="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-medium text-slate-600 ring-1 ring-slate-200">
+							<svg class="h-4 w-4 text-mint-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+							No coding needed
+						</span>
+					</div>
+					<p class="mx-auto mt-5 max-w-xl text-sm text-slate-500">
+						We strongly recommend
+						<a href="https://grok.com" target="_blank" rel="noopener noreferrer" class="font-semibold text-sky-700 underline decoration-sky-300 underline-offset-2 hover:text-sky-800">Grok AI</a>
+						for best results.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Short 4-step overview only -->
+		<section class="relative border-t border-slate-200/80 bg-white py-12 sm:py-16">
+			<div class="mx-auto max-w-5xl px-5 sm:px-6">
+				<div class="mx-auto max-w-2xl text-center">
+					<p class="text-sm font-semibold uppercase tracking-widest text-sky-600">Quick overview</p>
+					<h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">Four simple steps</h2>
+					<p class="mt-3 text-base leading-relaxed text-slate-600">Full click-by-click instructions are in the Setup Guide.</p>
+				</div>
+
+				<ol class="mt-10 grid gap-4 sm:grid-cols-2">
+					<li class="rounded-2xl border border-slate-200 bg-slate-50/80 p-5 shadow-sm">
+						<div class="flex items-start gap-4">
+							<span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-sky-600 text-sm font-extrabold text-white">1</span>
+							<div>
+								<h3 class="text-base font-bold text-slate-900">Connect GitHub</h3>
+								<p class="mt-1 text-sm leading-relaxed text-slate-600">Token + design repository in PromptWeb Settings.</p>
+							</div>
+						</div>
+					</li>
+					<li class="rounded-2xl border border-slate-200 bg-slate-50/80 p-5 shadow-sm">
+						<div class="flex items-start gap-4">
+							<span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-mint-500 text-sm font-extrabold text-white">2</span>
+							<div>
+								<h3 class="text-base font-bold text-slate-900">Initialize repository</h3>
+								<p class="mt-1 text-sm leading-relaxed text-slate-600">Prepare pages, instructions, and the Setup Guide.</p>
+							</div>
+						</div>
+					</li>
+					<li class="rounded-2xl border border-slate-200 bg-slate-50/80 p-5 shadow-sm">
+						<div class="flex items-start gap-4">
+							<span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-mint-500 to-teal-600 text-sm font-extrabold text-white">3</span>
+							<div>
+								<h3 class="text-base font-bold text-slate-900">Ask AI to design</h3>
+								<p class="mt-1 text-sm leading-relaxed text-slate-600">Use copy-paste prompts (include your repo name).</p>
+							</div>
+						</div>
+					</li>
+					<li class="rounded-2xl border border-slate-200 bg-slate-50/80 p-5 shadow-sm">
+						<div class="flex items-start gap-4">
+							<span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-slate-800 text-sm font-extrabold text-white">4</span>
+							<div>
+								<h3 class="text-base font-bold text-slate-900">Publish &amp; Sync</h3>
+								<p class="mt-1 text-sm leading-relaxed text-slate-600">See live website updates as AI designs and improves your pages.</p>
+							</div>
+						</div>
+					</li>
+				</ol>
+
+				<div class="mt-10 text-center">
+					<a href="/promptweb-setup-guide/" class="inline-flex items-center gap-2 rounded-xl bg-sky-600 px-6 py-3.5 text-base font-semibold text-white shadow-md shadow-sky-600/20 transition hover:bg-sky-700">
+						Open full Setup Guide
+						<svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+					</a>
+					<p class="mt-3 text-sm text-slate-500">Public page: <span class="font-medium text-slate-700">/promptweb-setup-guide/</span></p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="border-t border-slate-200 bg-white">
+		<div class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-3 px-5 py-8 text-center sm:flex-row sm:px-6 sm:text-left">
+			<p class="text-sm text-slate-500">&copy; <span id="pw-year"></span> The candela Studio. Starter page by PromptWeb.</p>
+			<p class="text-xs text-slate-400">Replace this home after AI publishes your design</p>
+		</div>
+	</footer>
+	<script>
+		document.getElementById('pw-year').textContent = new Date().getFullYear();
+	</script>
+</body>
+</html>
